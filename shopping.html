@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natures Leaves</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            background-color: #fff;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+        .product-card .btn-buy {
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .footer .form-inline {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .footer .company-logo {
+            width: 50px;
+            height: auto;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Natures Leaves</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row">
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Tea.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Chai.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Earl.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Herbal.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Lemon.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Decaf.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Matcha.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Immunity.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Chamomile.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mb-4">
+                <div class="product-card">
+                    <img src= Masala.jpg alt="Product Image">
+                    <div class="p-3">
+                        <h5>Green Tea</h5>
+                        <p>R19.99</p>
+                        <button class="btn btn-primary btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="form-inline justify-content-center">
+                <!-- Company Logo -->
+                <img src= Logo.jpg alt="Company Logo" class="company-logo">
+                
+                <!-- Contact Form -->
+                <form action="/submit" method="POST">
+                    <div class="form-group mb-2">
+                        <label for="contact-name" class="sr-only">Name</label>
+                        <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="contact-email" class="sr-only">Email</label>
+                        <input type="email" class="form-control" id="contact-email" placeholder="Your Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
